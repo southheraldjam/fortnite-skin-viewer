@@ -1,0 +1,49 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="55%" stop-color="#141a33"/>
+      <stop offset="100%" stop-color="#1b1030"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.2" cy="0.25" r="0.6">
+      <stop offset="0%" stop-color="#6a5cff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#6a5cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.85" cy="0.8" r="0.6">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#7c5cff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glowA)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glowB)"/>
+
+  <circle cx="150" cy="70" r="46" fill="#7c5cff" opacity="0.10"/>
+  <circle cx="1060" cy="300" r="70" fill="#00d4ff" opacity="0.08"/>
+  <circle cx="960" cy="60" r="26" fill="#ffffff" opacity="0.05"/>
+  <circle cx="220" cy="300" r="18" fill="#ffffff" opacity="0.05"/>
+
+  <line x1="120" y1="60" x2="1080" y2="60" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+  <line x1="120" y1="308" x2="1080" y2="308" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+
+  <path d="M0 250 L180 190 L360 240 L540 170 L720 230 L900 165 L1080 215 L1200 175 L1200 360 L0 360 Z" fill="#0a0f1e" opacity="0.55"/>
+
+  <polyline points="80,120 160,100 240,140 320,110 400,150 480,120 560,160 640,130 720,170 800,140 880,180 960,150 1040,190 1120,160" fill="none" stroke="url(#accentLine)" stroke-width="1.5" opacity="0.45"/>
+
+  <rect x="80" y="150" width="1040" height="1" fill="url(#accentLine)" opacity="0.6"/>
+
+  <text x="600" y="182" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="58.0" font-weight="700" fill="#ffffff">Fortnite Skin Changer</text>
+
+  <text x="600" y="228" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">Desktop viewer for Fortnite players — browse and preview</text>
+  <text x="600" y="256" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">fortnite skin changer options from a local library,…</text>
+
+  <circle cx="600" cy="292" r="3" fill="#7c5cff" opacity="0.8"/>
+  <circle cx="584" cy="292" r="2" fill="#00d4ff" opacity="0.6"/>
+  <circle cx="616" cy="292" r="2" fill="#00d4ff" opacity="0.6"/>
+</svg>
